@@ -1,0 +1,36 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Profile update features",
+    "line": 1,
+    "id": "profile-update-features",
+    "tags": [],
+    "uri": "features/profile_update.feature",
+    "elements": [
+      {
+        "id": "profile-update-features;login-and-edit-the-profile-information",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login and edit the profile information",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "test",
+            "match": {
+              "location": "features/step_definitions/sample_steps.js:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 60677000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout._onTimeout (/Users/baderalbulayhis/Desktop/iphone/node_modules/cucumber/lib/user_code_runner.js:93:22)\n    at listOnTimeout (timers.js:324:15)\n    at processTimers (timers.js:268:5)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
