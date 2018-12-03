@@ -1,6 +1,10 @@
 {
   "requires": true,
   "lockfileVersion": 1,
+  "scripts": {
+    "start": "electron .",
+    "test": ".\\node_modules\\.bin\\cucumber-js  -f json:test\\reports\\cucumber_report.json"
+  },
   "dependencies": {
     "ansi-regex": {
       "integrity": "sha1-w7M6te42DYbg5ijwRorn7yfWVN8=",
