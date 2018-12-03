@@ -13,8 +13,8 @@ let h1 = new hooks()
 Given('the contant should equal to {string}', async function (value) {
   // Write code here that turns the phrase above into concrete actions
 const delay = require('delay');
-const wd = require('wd');
-const driver = wd.promiseChainRemote('localhost',4723)
+//const wd = require('wd');
+//const driver = wd.promiseChainRemote('localhost',4723)
 var assert= require ('assert')
 
 
@@ -23,7 +23,7 @@ var desiredCaps = {
   deviceName: 'Bader',
   platformName: 'Android',
   platformVersion: '5.0.2',
-  app:'Users//baderalbulayhis//Desktop//app-debug.apk',
+  app:'  Users//Shared//Jenkins//Home//workspace//Install_dependencies//helloWorld//platforms//android//app//build//outputs//apk//debug//app-debug.apk',
   appPackage:'io.ionic.starter',
   autoGrantPermissions:true,
   unicodeKeyboard:true,
