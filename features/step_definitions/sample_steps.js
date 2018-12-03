@@ -2,7 +2,7 @@
 
 var {Given,When, Then} = require('cucumber');
 var {setDefaultTimeout} = require('cucumber');
-setDefaultTimeout(120 * 1000);
+setDefaultTimeout(220 * 1000);
 
 
 Given('test', async function () {
