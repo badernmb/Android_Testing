@@ -603,6 +603,7 @@
       "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz",
       "version": "5.1.1"
     },
+    "selenium-webdriver": "^4.0.0-alpha.1",
     "sntp": {
       "integrity": "sha1-ZUEYTMkK7qbG57NeJlkIJEPGYZg=",
       "requires": {

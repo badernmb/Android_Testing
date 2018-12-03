@@ -4,6 +4,11 @@ var {Given,When, Then} = require('cucumber');
 var {setDefaultTimeout} = require('cucumber');
 setDefaultTimeout(220 * 1000);
 
+const hooks = require('../support/hooks/hooks');
+const {Builder, until} = require('selenium-webdriver');
+
+let h1 = new hooks()
+
 
 Given('the contant should equal to {string}', async function (value) {
   // Write code here that turns the phrase above into concrete actions
