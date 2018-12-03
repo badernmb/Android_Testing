@@ -50,6 +50,7 @@
       "resolved": "https://registry.npmjs.org/asn1/-/asn1-0.2.3.tgz",
       "version": "0.2.3"
     },
+    "assert": "^1.4.1",
     "assert-plus": {
       "integrity": "sha1-104bh+ev/A24qttwIfP+SBAasjQ=",
       "resolved": "https://registry.npmjs.org/assert-plus/-/assert-plus-0.2.0.tgz",

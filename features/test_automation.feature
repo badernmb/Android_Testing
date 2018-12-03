@@ -3,4 +3,4 @@ Feature: Test Automation demo
 
 
 Scenario: Verfiy the contant of applicaiton
-   Given test
+   Given the contant should equal to "Hello"

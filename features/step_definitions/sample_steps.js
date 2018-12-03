@@ -5,11 +5,14 @@ var {setDefaultTimeout} = require('cucumber');
 setDefaultTimeout(220 * 1000);
 
 
-Given('test', async function () {
+Given('the contant should equal to {string}', async function (value) {
   // Write code here that turns the phrase above into concrete actions
 const delay = require('delay');
 const wd = require('wd');
-const driver = wd.promiseChainRemote('localhost',4723);
+const driver = wd.promiseChainRemote('localhost',4723)
+var assert= require ('assert')
+
+
 
 var desiredCaps = {
   deviceName: 'Bader',
@@ -35,8 +38,18 @@ let el1 = await driver.elementById("parid");
 //let elementsOne = await driver.elementByXpath('/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View');
 
 console.log(await el1.text());
+assert.equal(await el1.text(), value);
 
 	
 
 });
 
+
+Given('the contant should equal II to {string}', async function (value) {
+  // Write code here that turns the phrase above into concrete actions
+  var assert= require ('assert')
+  var x = "Hello CICDD";
+  assert.equal(x, value);
+
+
+});
