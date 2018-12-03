@@ -23,7 +23,7 @@ var desiredCaps = {
   deviceName: 'Bader',
   platformName: 'Android',
   platformVersion: '5.0.2',
-  app:'  Users//Shared//Jenkins//Home//workspace//Install_dependencies//helloWorld//platforms//android//app//build//outputs//apk//debug//app-debug.apk',
+  app:'//Users//Shared//Jenkins//Home//workspace//Install_dependencies//helloWorld//platforms//android//app//build//outputs//apk//debug//app-debug.apk',
   appPackage:'io.ionic.starter',
   autoGrantPermissions:true,
   unicodeKeyboard:true,
