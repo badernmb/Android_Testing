@@ -3,7 +3,7 @@
   "lockfileVersion": 1,
   "scripts": {
     "start": "electron .",
-    "test": ".\\node_modules\\.bin\\cucumber-js  -f json:test//report//cucumber_report.json"
+    "test": ".\\node_modules\\.bin\\cucumber-js  -f json:tests//features//output//cucumber_report.json"
   },
   "dependencies": {
     "ansi-regex": {
@@ -198,6 +198,8 @@
     },
     "cucumber": "^5.0.2",
     "cucumber-html-reporter": "^4.0.4",
+    "cucumber-junit": "^1.7.1",
+    "cucumberjs-junitxml": "^1.0.0",
     "dashdash": {
       "dependencies": {
         "assert-plus": {
