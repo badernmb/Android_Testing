@@ -4,3 +4,6 @@ Feature: Test Automation demo
 
 Scenario: Verfiy the contant of applicaiton
    Given the contant should equal to "Hello CICD"
+
+Scenario: Verfiy the second contant of applicaiton
+   Given the contant should equal to "Hello"
