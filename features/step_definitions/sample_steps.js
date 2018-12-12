@@ -22,7 +22,7 @@ var assert= require ('assert')
 var desiredCaps = {
   deviceName: 'Bader',
   platformName: 'Android',
-  platformVersion: '8.0.0',
+  platformVersion: '5.0.2',
   app:'//Users//Shared//Jenkins//Home//workspace//Install_dependencies//helloWorld//platforms//android//app//build//outputs//apk//debug//app-debug.apk',
   appPackage:'io.ionic.starter',
   autoGrantPermissions:true,
