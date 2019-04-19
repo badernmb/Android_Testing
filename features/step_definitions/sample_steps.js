@@ -45,7 +45,7 @@ let el1 = await driver.elementById("parid");
 console.log(await el1.text());
 assert.equal(await el1.text(), value);
 
-	
+	// checking git
 
 });
 
